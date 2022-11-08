@@ -1,10 +1,10 @@
 # crr
 
 Built with
-NextJS (React Framework for SSR)
+NextJS
 Mantine UI
-TailwindCSS (Utility-first CSS framework)
+TailwindCSS
 Supabase
-Cloudinary (for image storage)
+Cloudinary
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/nextjs-q8bvls)
