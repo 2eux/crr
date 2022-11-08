@@ -1,9 +1,14 @@
-import { MantineProvider } from '@mantine/core';
+import {MantineProvider} from "@mantine/core"
 
-function Demo() {
-  return (
-    <MantineProvider withGlobalStyles withNormalizeCSS>
-      <App />
-    </MantineProvider>
-  );
+function MyApp({ Component, pageProps }) {
+  return(
+    <MantineProvider
+      withGlobalStyles
+      withNormalizeCSS
+      theme={{colorScheme: "light"}}
+      >
+        <Component {...pageProps}/>
+      </MantineProvider>
+  )
 }
+export default MyApp
