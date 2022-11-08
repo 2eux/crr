@@ -1,7 +1,9 @@
-import '../styles/globals.css'
+import { MantineProvider } from '@mantine/core';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function Demo() {
+  return (
+    <MantineProvider withGlobalStyles withNormalizeCSS>
+      <App />
+    </MantineProvider>
+  );
 }
-
-export default MyApp
